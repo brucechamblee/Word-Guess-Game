@@ -1,4 +1,4 @@
-###### Word Guess Project
+# Word Guess Project
 
 This was my first Javascript Project where I had to build something that was interactive and dynamic. I decided to go with a Game of Thrones Theme for this.
 
@@ -28,7 +28,7 @@ The CSS was very basic. I have a background image that is scaled to the browser 
 ### Javascript
 For the Javascript, I created numerous variables. 
 
-# Variables
+#### Variables
 *Selectable Words - Words for the game
 *Max Tries - the amount of incorrect letters a user can select before they lose.
 *Guess Letters - This is an empty array that will contain the letters that were guessed.
@@ -38,7 +38,7 @@ For the Javascript, I created numerous variables.
 *has Finished - is used to start the game. Default is false until a user presses a key.
 *wins - Stores how many wins a user has. 
 
-# Fuctions
+#### Fuctions
 resetGame - This function sets the remaining guesses to the max tries, it selects the word at random, it pushes the guess letters into the array and adds the number of "_" for the word chosen, and updates the left container if a user wins or loses when the game is reset to a display of none. 
 
 updateDisplay - This function adds the number of wins to the Total Wins field, adds the letters that were guess and posts them as text to the users screen to be seen. 
