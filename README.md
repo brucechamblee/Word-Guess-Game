@@ -2,19 +2,19 @@
 
 This was my first Javascript Project where I had to build something that was interactive and dynamic. I decided to go with a Game of Thrones Theme for this.
 
-###Getting Started
+### Getting Started
 This project is designed to be ran in the browser without having to install any programs. I have not added media queries to this so playing this on a mobile device is not recommended. 
 
-###Design
+### Design
 The programing that was used to design this project waas:
 Javascript - Funcationality
 HTML - Content and layout
 CSS/Bootstrap - Colorr, layout, and some of activities that are triggered by the Javascript.
 
-###Versioning
+### Versioning
 I have only made one version of this. 
 
-###HTML
+### HTML
 
 In the HTML, I have a container that is holding two large columns. 
 
@@ -22,13 +22,13 @@ One the left side, I have 2 images that are set with a CSS Style of None. When t
 
 On the right side, I have 9 rows which will list some messages to play the game,a list of the total wins, current word, remaining guesses, and guessed letters. 
 
-###CSS
+### CSS
 The CSS was very basic. I have a background image that is scaled to the browser width. I have aligned the content to the center of the container. Also, as stated above, I have a couple of items I have set to a display of hidden that will be changed based on the users score. 
 
-###Javascript
+### Javascript
 For the Javascript, I created numerous variables. 
 
-#Variables
+# Variables
 *Selectable Words - Words for the game
 *Max Tries - the amount of incorrect letters a user can select before they lose.
 *Guess Letters - This is an empty array that will contain the letters that were guessed.
@@ -38,7 +38,7 @@ For the Javascript, I created numerous variables.
 *has Finished - is used to start the game. Default is false until a user presses a key.
 *wins - Stores how many wins a user has. 
 
-#Fuctions
+# Fuctions
 resetGame - This function sets the remaining guesses to the max tries, it selects the word at random, it pushes the guess letters into the array and adds the number of "_" for the word chosen, and updates the left container if a user wins or loses when the game is reset to a display of none. 
 
 updateDisplay - This function adds the number of wins to the Total Wins field, adds the letters that were guess and posts them as text to the users screen to be seen. 
