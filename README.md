@@ -1,5 +1,7 @@
 # Word Guess Project
 
+[Game of Thrones Word Guess Game] (https://brucechamblee.github.io/Word-Guess-Game/)
+
 This was my first Javascript Project where I had to build something that was interactive and dynamic. I decided to go with a Game of Thrones Theme for this.
 
 ### Getting Started
